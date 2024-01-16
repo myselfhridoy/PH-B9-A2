@@ -1,0 +1,67 @@
+.banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../images/banner.png);
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 0px auto;
+}
+
+.banner-text{
+    text-align: center;
+    padding: 40px 285px 0px 285px;
+}
+
+.banner-title{
+    color: #FFF;
+    font-family: Mulish, sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-paragraph{
+    width: 676px;
+    color: #FFF;
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 64px;
+}
+
+.banner-content{
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    border-radius: 8px;
+    margin: 0px 180px 100px 180px;
+}
+
+.banner-form{
+    border-radius: 8px;
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.banner-text-box{
+    width: 170px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-button{
+    width: 170px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0px;
+    color: #FFF;
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
