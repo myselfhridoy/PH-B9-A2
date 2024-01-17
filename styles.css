@@ -159,7 +159,7 @@
 
 .section-four{
     width: 1170px;
-    height: 500px;
+    height: 600x;
     margin: 0px auto;
 }
 
@@ -209,13 +209,162 @@
     font-family: Mulish, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    padding: 16px 55px 32px 32px;
+    padding: 0px 55px 20px 32px;
+}
+
+.newsletter{
+    width: 1170px;
+    height: 500x;
+    margin: 0px auto;
+}
+
+.newsletter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-title{
+    color: #131318;
+    font-family: Mulish, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 20px;
+}
+
+.newsletter-paragraph{
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+hr {
+    width: 95%;
+    margin: 24px 20px 24px 20px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.newsletter-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 20px;
+}
+
+.newsletter-text-box{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0px;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.newsletter-button{
+    width: 416px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0px;
+}
+
+.newsletter-image{
+    width: 675px;
+    height: 422px;
+    padding-left: 50px;
+}
+
+.offer-box{
+    border: 0px;
+    width: 324px;
+    height: 120px;
+    /* transform: rotate(-19.628deg); */
+    transform: translate(105%, -165%) rotate(-20deg);
+    border-radius: 16px;
+    background: #FF5400;
+}
+
+.offer-box-para{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.offer-box-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-style{
+    width: auto;
+    height: 502px;
+    margin-top: 60px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.logo-name{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 500px 0px 500px;
+}
+
+.footer-para{
+    width: 650px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 335px 0px 335px;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.copyright{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin: 50px 525px 110px 525px;
 }
 
 
 
-/* @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .section-one{
 
     }
-} */
+}
