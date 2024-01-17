@@ -1,5 +1,5 @@
 .section-one{
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../images/banner.png);
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../../images/banner.png);
     width: 1170px;
     height: 500px;
     border-radius: 16px;
@@ -330,7 +330,11 @@ hr {
     gap: 16px;
     justify-content: center;
     align-items: center;
-    padding: 110px 500px 0px 500px;
+    padding: 110px 450px 0px 450px;
+    color: var(--Dark-01, #131318);
+    font-family: Mulish, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
 }
 
 .footer-para{
